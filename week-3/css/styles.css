@@ -1,0 +1,82 @@
+.food
+{
+  background-color: #808080;
+  margin:0px 15px 30px 15px;
+  border:2px solid black;
+  position: relative;
+}
+
+.navbar
+{
+ background-color: #C0C0C0 ;
+ 
+}
+.navbar-header
+{
+    font-weight: bold;
+
+
+}
+.navbar-brand
+{
+  color:black;
+  margin-left:10px; 
+}
+ul.navbar-nav 
+{
+  width:100%;
+  background-color: #2F4F4F ;
+ // margin:0;
+ // margin-left: 0;
+ // margin-right: 0;
+
+}
+div.container-fluid
+{
+  margin-top:30px;
+  margin-bottom:10px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #100a0a;
+}
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+.navbar-header>.navbar-toggle:hover
+{
+  background-color: blue
+}
+nav.navbar.open {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 767px)
+{
+  #myNavbar 
+  {
+     background-color: #2F4F4F ;
+     
+  }
+  li,#mynavbar
+  {
+     border-bottom: 2px solid black;
+       border-left: 2px solid black;
+         border-right: 2px solid black;
+     width:100%;
+  }
+  .container
+  {
+    padding:0px;
+    padding-right: 0px
+  }
+  .container>.navbar-collapse
+  {
+    margin-right:-30px;
+    margin-top: :-30px;
+  }
+  .navbar-nav
+  {
+    margin :0px;
+
+  }
+}
