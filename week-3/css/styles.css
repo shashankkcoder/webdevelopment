@@ -5,7 +5,10 @@
   border:2px solid black;
   position: relative;
 }
-
+nav
+{
+  border:1px solid black;
+}
 .navbar
 {
  background-color: #C0C0C0 ;
